@@ -12,6 +12,7 @@
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
       <version>5.0.0</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -32,6 +33,7 @@
         <version>3.1.0</version>
         <configuration>
           <mainClass>com.example.App</mainClass>
+          <classpathScope>compile</classpathScope>
         </configuration>
       </plugin>
     </plugins>
