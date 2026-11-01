@@ -1,4 +1,3 @@
-@'
 package com.example;
 
 import jakarta.servlet.http.HttpServlet;
@@ -143,4 +142,3 @@ public class UserTableServlet extends HttpServlet {
                 .replace("'", "&#39;");
     }
 }
-'@ | Set-Content -Encoding UTF8 src\main\java\com\example\UserTableServlet.java
